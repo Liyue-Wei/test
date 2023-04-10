@@ -1,14 +1,8 @@
-'''
-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
-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
-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
-'''
-
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 model_engine = "text-davinci-002" # 設定模型引擎
-prompt = "Hello, how are you?" # 輸入提示信息
+prompt = "write a code to print hello world uaing swift" # 輸入提示信息
 
 completions = openai.Completion.create(
     engine=model_engine,
