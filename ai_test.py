@@ -1,7 +1,7 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
-model_engine = "text-davinci-002" # 設定模型引擎
+model_engine = "text-davinci-001" # 設定模型引擎
 
 while True:
     const = str(input())
