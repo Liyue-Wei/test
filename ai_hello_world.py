@@ -1,7 +1,7 @@
 import openai
 import os
 
-openai.api_key = "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"
+openai.api_key = "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"
 lang = ['python', 'c', 'c++', 'vb', 'swift', 'java', 'js', 'ruby', 'go', 'cs', 'r', 'powershell', 'lua', 'julia']
 
 for i in range(0, len(lang)):

@@ -1,53 +1,10 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 model_engine = "text-davinci-002" # 設定模型引擎
-prompt = "write a code to print hello world uaing swift" # 輸入提示信息
 
-completions = openai.Completion.create(
-    engine=model_engine,
-    prompt=prompt,
-    max_tokens=60
-)
-
-message = completions.choices[0].text # 獲取模型回應
-print(message)
-
-
-'''
-import openai
-import os
-
-# 設定 API Key
-openai.api_key = os.environ['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']
-
-# 輸入您要對話的文字
-prompt = "Hello, I'm ChatGPT. What can I help you with today?"
-
-# 設定模型和引擎
-model_engine = "text-davinci-002"
-
-# 設定輸出的字元數量
-max_tokens = 50
-
-# 設定重要度
-importance = 1.0
-
-# 設定回覆的溫度
-temperature = 0.7
-
-# 執行模型並取得回覆
-response = openai.Completion.create(
-    engine=model_engine,
-    prompt=prompt,
-    max_tokens=max_tokens,
-    n=1,
-    stop=None,
-    temperature=temperature,
-    frequency_penalty=0,
-    presence_penalty=importance
-)
-
-# 輸出回覆
-print(response.choices[0].text)
-'''
+while True:
+    const = str(input())
+    completions = openai.Completion.create(engine=model_engine, prompt=const, max_tokens=1024)
+    message = completions.choices[0].text # 獲取模型回應
+    print(message)
