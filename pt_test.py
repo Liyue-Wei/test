@@ -1,9 +1,9 @@
 from pytube import *
 url = "https://www.youtube.com/watch?v=TBFa1yV9hTM"
 yt = YouTube(url)
-# print(yt.streams)   
+print(yt.title)   
 # yt.streams.filter(type="audio", mime_type="audio/mp4").last().download()
-yt.streams.filter(type="video", progressive="False", res="2160p").first().download()
+yt.streams.filter(type="video", res="2160p").first().download()
 
 '''
 星火
