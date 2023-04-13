@@ -1,12 +1,11 @@
 from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.options import Options
 
-# options = Options()
-# options.add_argument('headless')
-# driver = webdriver.Chrome(options=options)
-driver = webdriver.Chrome()
+options = Options()
+options.add_argument('headless')
+driver = webdriver.Chrome(options=options)
 
-driver.get("https://www.bing.com")
+driver.get("https://www.qidian.com/")
 print(driver.title)
 
 driver.quit()
