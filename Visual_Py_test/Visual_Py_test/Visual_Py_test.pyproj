@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Visual_Py_test</Name>
     <RootNamespace>Visual_Py_test</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
