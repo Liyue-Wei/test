@@ -1,0 +1,149 @@
+python
+
+print("Hello World")
+
+c
+
+#include <stdio.h>
+
+int main() {
+
+  printf("Hello World!\n");
+
+  return 0;
+}
+
+c++ 
+
+#include <iostream> 
+using namespace std; 
+
+int main() 
+{ 
+	//prints hello world 
+	cout << "Hello World" << endl; 
+	return 0; 
+}
+
+vbscript
+
+MsgBox "Hello World!"
+
+swift
+
+print("Hello World!")
+
+java
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+
+js
+
+console.log("Hello World!");
+
+ruby
+
+puts "hello world"
+
+go
+
+package main 
+ 
+import "fmt" 
+ 
+func main() { 
+   fmt.Println("Hello World") 
+}
+
+csript
+
+console.log("Hello World!");
+
+r language
+
+# R Code to print "Hello World" 
+cat("Hello World")
+
+powershell
+
+Write-Host "Hello World"
+
+lua
+
+print("Hello World!")
+
+julia
+
+println("Hello World")
+
+PHP
+
+<?php
+echo "Hello World";
+?>
+
+Objective-C
+
+NSLog(@"Hello World");
+
+vb.net7
+
+Module Module1
+    Sub Main()
+        System.Console.WriteLine("Hello World")
+    End Sub
+End Module
+
+html
+
+<html>
+  <body>
+    <p>Hello World</p>
+  </body>
+</html>
+
+coldfusion
+
+<cfoutput>
+    Hello World
+</cfoutput>
+
+cython
+
+#Filename: main.py
+
+print("Hello World!")
+
+#Filename: setup.py
+
+from distutils.core import setup
+from Cython.Build import cythonize
+
+setup(
+    ext_modules=cythonize("main.py")
+)
+
+cpython
+
+print('Hello World!')
+
+fortran
+
+program hello_world
+  write (*,*) "Hello World!"
+end program hello_world
+
+kotlin
+
+fun main() {
+    println("Hello World")
+}
+
+matlab
+
+fprintf('Hello World\n')
+
