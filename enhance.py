@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 讀取圖像
-img = cv2.imread("input.jpg")
+img = cv2.imread("input.png")
 
 # 定義卷積核
 kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
