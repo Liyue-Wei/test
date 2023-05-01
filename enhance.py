@@ -1,3 +1,29 @@
+import cv2 
+import numpy as np
+import time
+img = cv2.imread("input.png")
+cv2.imshow("pic1", img)
+
+kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+img = cv2.filter2D(img, -1, kernel)
+cv2.imshow("pic2", img)
+
+for i in range(50000):
+    kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+    img = cv2.filter2D(img, -1, kernel)
+    cv2.imshow("pic", img)
+'''
+kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+img = cv.filter2D(img, -1, kernel)
+cv.imshow("pic3", img)
+kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+img = cv.filter2D(img, -1, kernel)
+cv.imshow("pic4", img)
+'''
+cv2.imwrite("output.jpg", img)
+cv2.waitKey(0)
+
+'''
 import cv2
 import numpy as np
 
@@ -12,3 +38,4 @@ sharp_img = cv2.filter2D(img, -1, kernel)
 
 # 保存銳化後的圖像
 cv2.imwrite("output.jpg", sharp_img)
+'''
