@@ -1,17 +1,21 @@
 import cv2 
 import numpy as np
-import time
-img = cv2.imread("input.png")
+img = cv2.imread("input.png", cv2.IMREAD_GRAYSCALE)
 cv2.imshow("pic1", img)
 
 kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
 img = cv2.filter2D(img, -1, kernel)
 cv2.imshow("pic2", img)
 
-for i in range(50000):
+for i in range(10000):
     kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
     img = cv2.filter2D(img, -1, kernel)
     cv2.imshow("pic", img)
+
+for i in range(50000):
+    kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+    img = cv2.filter2D(img, -1, kernel)
+    cv2.imshow("picc", img)
 '''
 kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
 img = cv.filter2D(img, -1, kernel)
