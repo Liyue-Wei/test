@@ -7,7 +7,7 @@ import matplotlib.animation as animation
  1.參數設定
 """
 L, sep, N, k, cut = 10, 2, 800, 2, 0.8 # 0.5倍寬度, 波源與原點距離, 每邊分割數量, 角波數, z軸範圍
-fps, frn = 24, 50           # 每秒影格數量, 影格總數
+fps, frn = 24, 50          # 每秒影格數量, 影格總數
 x = np.linspace(-L, L, N)   # x軸
 y = np.linspace(-L, L, N)   # y軸
 X, Y = np.meshgrid(x, y)    # 組成2維陣列

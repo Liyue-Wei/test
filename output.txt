@@ -1,0 +1,155 @@
+python
+
+print("Hello, world!")
+
+c
+
+#include <stdio.h> int main() { printf("Hello world!
+
+"); return 0; }
+
+c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+cout<<"Hello World!"<<endl;
+
+return 0;
+
+}
+
+vb.net
+
+Dim output As New System.Text.StringBuilder
+
+output.Append("Hello, World!")
+
+Console.WriteLine(output.ToString())
+
+swift
+
+println("Hello, World!")
+
+java
+
+System.out.println("Hello, World!");
+
+js
+
+console.log("Hello world!");
+
+ruby
+
+puts "Hello, world!"
+
+go
+
+package main import "fmt" func main() { fmt.Println("Hello, world!") }
+
+cs
+
+print("Hello, world!");
+
+r
+
+Hello World!
+
+powershell
+
+$host.UI.RawUI.WindowTitle = "Hello World!"
+
+$host.UI.RawUI.ForegroundColor = "White"
+
+Write-Host "Hello World!"
+
+lua
+
+print("Hello World!")
+
+julia
+
+println("Hello, world!")
+
+PHP
+
+<?php
+
+echo("Hello, world!");
+
+?>
+
+Objective-C
+
+#import "ViewController.h" @interface ViewController () @end @implementation ViewController - (void)viewDidLoad { [super viewDidLoad]; // Do any additional setup after loading the view, typically from a nib. NSLog(@"%@", @"Hello, world!"); } - (void)didReceiveMemoryWarning { [super didReceiveMemoryWarning]; // Dispose of any resources that can be recreated. } @end
+
+vb.net7
+
+Dim output As New System.Text.StringBuilder
+
+output.Append("Hello, world!")
+Console.WriteLine(output.ToString())
+
+html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Hello World</title>
+
+</head>
+
+<body>
+
+Hello World!
+
+</body>
+
+</html>
+
+coldfusion
+
+Hello World
+
+cython
+
+def main():
+
+print("Hello, world!")
+
+if __name__ == "__main__":
+
+main()
+
+cpython
+
+print("Hello, world!")
+
+fortran
+
+program hello_world
+
+write(*,*)'Hello, World!'
+
+end program
+
+kotlin
+
+fun main(args: Array<String>) {
+
+println("Hello World!")
+
+}
+
+matlab
+
+%% Hello World clear all; clc; disp('Hello world!');
+
