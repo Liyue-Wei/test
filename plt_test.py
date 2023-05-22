@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(-1000, 1000, 250000)   
+x = np.linspace(0, 7, 250000)   
 y = np.sin(x)    
 yy = np.cos(x)
 yyy = np.tan(x)
