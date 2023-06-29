@@ -2,7 +2,7 @@ import openai
 import os
 import time
 
-openai.api_key = "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"
+openai.api_key = "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"
 lang = ['python', 'c', 'c++', 'vb', 'swift', 'java', 'js', 'ruby', 'go', 'cs', 'r', 'powershell', 'lua', 'julia', 'PHP', 'Objective-C', 'vb.net7', 'html', 'coldfusion', 'cython', 'cpython', 'fortran', 'kotlin', 'matlab']
 
 i = len(lang)
