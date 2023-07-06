@@ -1,3 +1,4 @@
+'''
 import cv2
 
 # 使用 OpenCV 預設的分類器，可在 https://github.com/opencv/opencv/tree/master/data/haarcascades 找到其它型號
@@ -29,13 +30,12 @@ while True:
 # 釋放資源
 cap.release()
 cv2.destroyAllWindows()
-
-
 '''
+
 import cv2
 import time
 
 cv2.namedWindow("win" [cv2.WINDOW_AUTOSIZE])
 time.sleep(1)
 cv2.destroyAllWindows()
-'''
+
