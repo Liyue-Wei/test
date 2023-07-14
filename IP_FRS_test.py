@@ -14,7 +14,7 @@ while True:
     # height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
     # fps = int(cam.get(cv2.CAP_PROP_FPS))
     # print("{}x{} {}fps".format(width, height, fps))
-    print(img.shape)
+    # print(img.shape)
 
     cv2.imshow("WebCam", img) 
 
