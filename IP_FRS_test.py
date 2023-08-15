@@ -3,7 +3,7 @@ import cv2
 import requests
 import time
 
-url = "http://{}/shot.jpg".format(str(input("input url: ")))
+url = "http://{}/shot.jpg".format(str(input("IP address: ")))
 
 while True: 
     img_req = requests.get(url) 
