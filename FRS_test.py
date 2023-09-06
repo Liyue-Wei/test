@@ -16,8 +16,8 @@ cap = cv2.VideoCapture(0)  #開啟攝影機
 cv2.namedWindow('video', cv2.WINDOW_NORMAL)
 while index > 0:  #取樣
     ret, frame = cap.read()
-    # frame = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
-    # img = cv2.filter2D(frame, -1, frame)
+    frame = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+    img = cv2.filter2D(frame, -1, frame)
     
     frame = cv2.flip(frame, 1)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
