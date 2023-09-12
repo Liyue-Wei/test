@@ -10,5 +10,4 @@ textExample=tk.Text(root, height=10).pack()
 
 btnRead=tk.Button(root, height=1, width=10, text="Read", command=getTextInput).pack()
 
-
 root.mainloop()
