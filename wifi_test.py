@@ -3,6 +3,7 @@
 # 文件名：getwindev.py
 from netifaces import interfaces, ifaddresses, AF_INET
 import winreg as wr
+import os
  
 def get_ipinfo():
  #获取所有网络接口卡的键值
@@ -34,3 +35,5 @@ def get_ipinfo():
  
 if __name__ == '__main__':
     print(get_ipinfo())
+	
+os.system('pause')
