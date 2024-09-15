@@ -3,8 +3,9 @@ using namespace std;
 int main()
 {
 
-    int i, n;
+    float i, n;
     cin >> i >> n;
+    n = (int)n;
     cout << i << n;
 
     return 0;
