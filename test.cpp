@@ -1,12 +1,6 @@
-#include<iostream>
-using namespace std;
-int main()
-{
+#include <iostream>
 
-    float i, n;
-    cin >> i >> n;
-    n = (int)n;
-    cout << i << n;
-
+int main(void) {
+    std::cout << sizeof(bool) << std::endl;
     return 0;
 }
