@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main(void) {
-    std::cout << sizeof(bool) << std::endl;
-    return 0;
+    int a, f;
+    std::cin >> a;
+    f = -2<a<2;
+    std::cout << f;
 }
