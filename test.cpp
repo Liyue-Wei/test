@@ -1,8 +1,12 @@
 #include <iostream>
-
+using namespace std;
 int main(void) {
-    int a, f;
-    std::cin >> a;
-    f = -2<a<2;
-    std::cout << f;
+int number[] = {23, 18, 22, 65, 97};
+int x = number[0];
+int i=1;
+NEXT:
+      if (number[i] < x) x = number[i];
+      i++;
+      if (i < 5) goto NEXT;
+cout << x << endl;
 }
